@@ -46,19 +46,22 @@ pip install .
 
 ## 使用说明
 
-### 作为Python包使用
+### 图形界面
+python speech_to_text_ui.py
+1.选择音频文件
+2.选择输出文件
+3.选择模型大小
+4.点击开始转换
+5.转换完成后，会在当前目录下生成一个txt文件，文件内容为转换后的文本
 
-```python
-from speech_to_text import convert_audio_to_text, batch_process_directory
+### 命令行
+python speech_to_whisper.py
+1.选择音频文件
+2.选择输出文件
+3.选择模型大小
+4.点击开始转换
+5.转换完成后，会在当前目录下生成一个txt文件，文件内容为转换后的文本
 
-# 转换单个文件
-convert_audio_to_text("path/to/audio.mp3", "output.txt", model_size="base")
-
-# 批量处理目录
-batch_process_directory("path/to/audio/folder", model_size="tiny")
-```
-
-详细使用说明请参阅[使用文档](docs/usage.md)。
 
 ## 项目结构
 ```

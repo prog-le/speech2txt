@@ -20,7 +20,7 @@ wheels/
 .installed.cfg
 *.egg
 
-# 虚拟环境
+# Virtual Environment
 venv/
 env/
 ENV/
@@ -30,19 +30,23 @@ ENV/
 .vscode/
 *.swp
 *.swo
-.DS_Store
 
-# 项目特定
-*.mp3
+# Project specific
 *.wav
-*.m4a
+*.mp3
 *.flac
 *.ogg
+*.m4a
 *.txt
 !requirements.txt
-
-# 日志
+logs/
+output/
+models/
 *.log
+
+# OS specific
+.DS_Store
+Thumbs.db
 
 # 缓存
 .cache/

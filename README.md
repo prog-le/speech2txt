@@ -69,7 +69,6 @@ python speech_to_text_whisper.py
 ```
 speech2txt/
 ├── requirements.txt               # 项目依赖
-├── setup.py                       # 安装脚本
 ├── .gitignore                     # Git忽略文件
 ├── LICENSE                        # 许可证
 ├── CONTRIBUTING.md                # 贡献指南

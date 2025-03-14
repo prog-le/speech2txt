@@ -28,8 +28,8 @@
 1. 克隆仓库
 
 ```bash
-git clone https://github.com/yourusername/speech-to-text-tool.git
-cd speech-to-text-tool
+git clone https://github.com/prog-le/speech2txt.git
+cd speech2txt
 ```
 
 2. 安装依赖
